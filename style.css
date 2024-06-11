@@ -1,0 +1,42 @@
+/* absen 7,15,23,31 */
+/* Atur Fullsize Background */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(background.jpg);
+    opacity: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* absen 8,16,24,32 */
+td,
+th {
+    color: steelblue;
+    font-size: 20px;
+    background-color: rgba(145, 135, 135, 0.5);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    font-size: 30px;
+}
+
+table {
+    border-spacing: 10px;
+}
